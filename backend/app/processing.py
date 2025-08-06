@@ -46,7 +46,7 @@ def query_answer(question):
     
     model = ChatGroq(
         temperature=0,
-        model_name="mistral-saba-24b",
+        model_name="meta-llama/llama-4-maverick-17b-128e-instruct",
         api_key=os.getenv("GROQ_API_KEY")
     )
     
